@@ -1,0 +1,27 @@
+input {
+  height: 20px;
+  border-radius: 10px;
+}
+.button {
+  background-color: burlywood;
+  color: aqua;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.divv {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid gainsboro;
+  padding: 0 0px 0 10px;
+}
+.divv:nth-child(2n + 1) {
+  background: rgb(239, 239, 241);
+}
+.divv > button {
+  background: blueviolet;
+  color: aliceblue;
+}
